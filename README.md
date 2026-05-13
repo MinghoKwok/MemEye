@@ -1,8 +1,16 @@
-# MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory
+<p align="center">
+  <img src="assets/LOGO_Transparent.PNG" width="200">
+</p>
 
-[![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/MemEyeBench/MemEye)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
+<h1 align="center">MemEye</h1>
+<h3 align="center">A Visual-Centric Evaluation Framework for Multimodal Agent Memory</h3>
+
+<p align="center">
+  <a href="https://huggingface.co/datasets/MemEyeBench/MemEye"><img src="https://img.shields.io/badge/HuggingFace-Dataset-yellow" alt="Dataset"></a>
+  <a href="https://MinghoKwok.github.io/MemEye/"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10%2B-green.svg" alt="Python 3.10+"></a>
+</p>
 
 <p align="center">
   <img src="assets/headfigure.png" width="100%">
