@@ -79,13 +79,8 @@ pip install -r requirements.txt
 The benchmark data (dialogue JSONs + images) is hosted on HuggingFace:
 
 ```bash
-# Clone the dataset
 git lfs install
 git clone https://huggingface.co/datasets/MemEyeBench/MemEye data
-
-# Or use the built-in sync script
-export HF_TOKEN=<your_token>
-python sync_hf_data.py pull
 ```
 
 Then generate task configs pointing to your local data:
@@ -224,7 +219,6 @@ python run_benchmark.py \
 ├── run_benchmark.py          # Main benchmark entry point
 ├── run_matrix.py             # Model x method matrix runner
 ├── score_locked_llm_judge.py # Post-hoc LLM judge scoring
-├── sync_hf_data.py           # HuggingFace dataset sync
 ├── register_external_data.py # Generate task configs from external data
 ├── benchmark/                # Core modules
 │   ├── dataset.py            #   Data loading
@@ -242,6 +236,7 @@ python run_benchmark.py \
 │   ├── methods/              # Method configs
 │   ├── models/               # Model configs
 │   └── tasks/                # Task configs (examples)
+├── tools/                    # Utility scripts (HF sync, caption preprocessing)
 ├── docs/                     # Documentation
 ```
 
