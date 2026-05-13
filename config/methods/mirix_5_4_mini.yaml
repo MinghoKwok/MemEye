@@ -1,0 +1,4 @@
+name: mirix
+
+official_runtime: true
+official_model_name: "gpt-5.4-mini"

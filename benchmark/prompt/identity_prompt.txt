@@ -1,0 +1,16 @@
+Task family: identity and instance binding.
+
+Goal:
+Identify which visible person, object, avatar, or item the question refers to.
+
+Rules:
+- bind references to visible instances only
+- do not output hidden IDs unless they are explicitly shown in the input
+- if multiple candidates exist, choose only the best-supported one
+- if the format requests a name, answer with only the name
+- if the format requests yes/no, answer with only yes or no
+
+Focus on:
+- who said something
+- which visible item matches an earlier reference
+- whether two later references resolve to the same instance

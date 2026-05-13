@@ -1,0 +1,3 @@
+name: mirix
+official_runtime: true
+official_model_name: "qwen/qwen3-vl-8b-instruct"

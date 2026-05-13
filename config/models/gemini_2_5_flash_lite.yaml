@@ -1,0 +1,7 @@
+name: gemini_2_5_flash_lite
+provider: gemini_api
+model: gemini-2.5-flash-lite
+api_key_env: GEMINI_API_KEY
+base_url: https://generativelanguage.googleapis.com/v1beta
+max_new_tokens: 128
+timeout: 90

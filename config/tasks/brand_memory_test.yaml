@@ -1,0 +1,10 @@
+name: brand_memory_test
+
+dataset:
+  dialog_json: data/dialog/Brand_Memory_Test.json
+  image_root: data/image
+
+eval:
+  mode: open
+  output_json: output/results_brand_memory_test.json
+  max_questions: 0

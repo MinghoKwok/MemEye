@@ -1,0 +1,15 @@
+assistant_id: memorybench_assistant
+embedding_model: all-MiniLM-L6-v2
+llm_api_key: ''
+llm_api_key_env: GEMINI_API_KEY
+llm_base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+llm_model: gemini-2.5-flash-lite
+llm_timeout: 90
+long_term_knowledge_capacity: 100
+mid_term_capacity: 2000
+mid_term_heat_threshold: 5.0
+mid_term_similarity_threshold: 0.6
+name: memoryos
+retrieval_queue_capacity: 10
+short_term_capacity: 10
+user_id: memorybench_user

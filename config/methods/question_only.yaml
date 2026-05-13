@@ -1,0 +1,4 @@
+name: question_only
+
+# Ablation: zero history — only the question and options are shown.
+# Tests how much the model can guess from the MCQ design alone.

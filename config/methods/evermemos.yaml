@@ -1,0 +1,21 @@
+name: evermemos
+
+# Keep EverMemOS internal calls on the default internal model, routed through
+# this repo's existing OpenAI-compatible credential setup.
+internal_llm_model: gpt-4.1-mini
+internal_llm_api_key: ""
+internal_llm_api_key_env: OPENAI_API_KEY
+internal_llm_base_url: https://api.openai.com/v1
+internal_llm_temperature: 0.3
+internal_llm_max_tokens: 16384
+
+# Benchmark-side final answer model for fair comparison.
+answer_model: gpt-4.1-nano
+
+caption_preprocessed: true
+search_mode: agentic
+lightweight_search_mode: bm25_only
+use_hybrid_search: true
+hybrid_emb_candidates: 50
+hybrid_bm25_candidates: 50
+hybrid_rrf_k: 40

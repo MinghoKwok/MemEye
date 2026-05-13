@@ -1,0 +1,10 @@
+caption_preprocessed: true
+context_word_limit: 6000
+empty_memory: No stored memory yet.
+llm_api_key: ''
+llm_api_key_env: GEMINI_API_KEY
+llm_base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+llm_model: gemini-2.5-flash-lite
+name: reflexion
+reflection_example: ''
+reflection_temperature: 0.0

@@ -1,0 +1,13 @@
+name: reflexion
+
+caption_preprocessed: true
+context_word_limit: 6000
+empty_memory: "No stored memory yet."
+
+llm_model: ""
+llm_api_key: ""
+llm_api_key_env: OPENROUTER_API_KEY
+llm_base_url: https://openrouter.ai/api/v1
+reflection_temperature: 0.0
+
+reflection_example: ""

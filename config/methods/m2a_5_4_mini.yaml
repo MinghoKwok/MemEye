@@ -1,0 +1,24 @@
+name: m2a
+
+# LLM for ChatAgent and MemoryManager ReAct loops
+# Must match the model used by other methods for fair comparison
+llm_model: "gpt-5.4-mini"
+llm_api_key: ""                          # falls back to OPENAI_API_KEY env var
+llm_api_key_env: "OPENAI_API_KEY"
+llm_base_url: "https://api.openai.com/v1"
+llm_timeout: 90
+
+# Text embedding: all-MiniLM-L6-v2 (384-dim, local sentence-transformers)
+# Faithful to official M2A
+text_embedding_model: "all-MiniLM-L6-v2"
+
+# Multimodal embedding: siglip2-base-patch16-384 (768-dim) via vLLM
+# Faithful to official M2A (requires vLLM serving at the URL below)
+multimodal_embedding_model: "siglip2-base-patch16-384"
+
+# MemoryManager ReAct loop settings (faithful to official M2A defaults)
+max_memory_iterations: 15   # max tool-calling iterations per query/update
+context_window: 5           # recent raw messages shown in MemoryManager context
+
+# ChatAgent query settings
+max_query_iterations: 5     # max memory query iterations during answer generation

@@ -1,0 +1,19 @@
+name: gen_agents
+modality: text_only
+
+llm_model: gemini-2.5-flash-lite
+llm_api_key_env: GEMINI_API_KEY
+base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+
+embedding_model: all-MiniLM-L6-v2
+
+retrieve_k: 10
+caption_preprocessed: true
+llm_temperature: 0.0
+importance_post_scale: 10.0
+reflection_threshold: 8.0
+reflection_topk: 2
+reflection_question_number: 2
+reflection_insight_number: 2
+recency_decay: 0.995
+recall_truncation_words: 4000

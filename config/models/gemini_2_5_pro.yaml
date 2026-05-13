@@ -1,0 +1,7 @@
+name: gemini_2_5_pro
+provider: gemini_api
+model: gemini-2.5-pro
+api_key_env: GEMINI_API_KEY
+base_url: https://generativelanguage.googleapis.com/v1beta
+max_new_tokens: 8192
+timeout: 90

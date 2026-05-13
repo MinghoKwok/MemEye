@@ -1,0 +1,10 @@
+name: a_mem
+
+backend: openai
+llm_model: gpt-4.1-nano
+llm_api_key: ""
+llm_api_key_env: OPENAI_API_KEY
+retrieve_k: 10
+embedding_model: all-MiniLM-L6-v2
+caption_preprocessed: true
+temperature_c5: 0.5

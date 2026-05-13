@@ -1,0 +1,19 @@
+name: m2a
+
+# LLM → OpenRouter (Qwen3-VL-8B)
+llm_model: qwen/qwen3-vl-8b-instruct
+llm_api_key: ""
+llm_api_key_env: OPENROUTER_API_KEY
+llm_base_url: https://openrouter.ai/api/v1
+llm_timeout: 90
+
+# Text embedding (local sentence-transformers)
+text_embedding_model: all-MiniLM-L6-v2
+
+# Multimodal embedding: CLIP (local, CPU-compatible)
+multimodal_embedding_model: openai/clip-vit-base-patch32
+
+# ReAct loop settings
+max_memory_iterations: 15
+context_window: 5
+max_query_iterations: 5

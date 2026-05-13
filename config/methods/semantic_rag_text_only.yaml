@@ -1,0 +1,11 @@
+name: semantic_rag_text_only
+
+# Text-only variant: retrieves via dense text embeddings (captions included in index).
+# Equivalent to Mem-Gallery semantic RAG baseline.
+# Requires image_caption fields in the dataset for image-bearing rounds.
+retrieval_backend: dense_text
+top_k: 10
+neighbor_window: 0
+text_embedding_model: all-MiniLM-L6-v2
+text_dense_weight: 1.0
+image_dense_weight: 0.0

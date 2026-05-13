@@ -1,0 +1,28 @@
+name: simplemem
+
+# Multimodal mode: images are stored via raw_pointer + vision_on_demand tag.
+# At answer time the orchestrator loads retrieved images and passes them
+# alongside text context to the VLM.
+modality: multimodal
+
+# Backend / answer model: pulled from --model flag at runtime via _model_cfg.
+llm_model: ""
+llm_api_key: ""
+llm_api_key_env: OPENAI_API_KEY
+
+# Retrieval settings
+retrieve_k: 20
+
+# Embedding (text retrieval — images are loaded on-demand, not embedded)
+embedding_model: all-MiniLM-L6-v2
+embedding_dim: 384
+
+# No caption preprocessing needed in multimodal mode
+caption_preprocessed: false
+
+# LLM generation knobs
+temperature: 0.0
+max_tokens: 1000
+
+# Skip Omni-SimpleMem's auto-research / self-evolution loop for benchmark fairness
+enable_self_evolution: false

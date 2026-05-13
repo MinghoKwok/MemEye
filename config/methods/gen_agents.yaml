@@ -1,0 +1,22 @@
+name: gen_agents
+modality: text_only
+
+# Internal GA reasoning / reflection model.
+llm_model: gpt-4.1-mini
+llm_api_key: ""
+llm_api_key_env: OPENAI_API_KEY
+
+# Internal GA text embedding model.
+embedding_model: all-MiniLM-L6-v2
+
+# Retrieval / reflection settings.
+retrieve_k: 10
+caption_preprocessed: true
+llm_temperature: 0.0
+importance_post_scale: 10.0
+reflection_threshold: 8.0
+reflection_topk: 2
+reflection_question_number: 2
+reflection_insight_number: 2
+recency_decay: 0.995
+recall_truncation_words: 4000

@@ -1,0 +1,7 @@
+name: gpt_5_4_mini
+provider: openai_api
+model: gpt-5.4-mini
+api_key_env: OPENAI_API_KEY
+base_url: https://api.openai.com/v1
+max_new_tokens: 128
+timeout: 90

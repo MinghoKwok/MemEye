@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.env.local
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Benchmark artifacts
+runs/
+output/
+logs/
+locked_results/
+
+# Data (hosted on HuggingFace)
+data/
+
+# Config with absolute paths (auto-generated)
+config/tasks_external/
+
+# Misc
+*.tar.gz
+*.zip

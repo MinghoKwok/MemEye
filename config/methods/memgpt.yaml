@@ -1,0 +1,5 @@
+name: memgpt
+
+persona: memgpt_doc
+human: basic
+agent_name: memorybench_memgpt

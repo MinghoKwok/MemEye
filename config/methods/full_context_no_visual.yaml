@@ -1,0 +1,5 @@
+name: full_context_no_visual
+
+# Ablation: dialogue text only, no images and no captions.
+# Tests whether the text conversation itself leaks visual information.
+context_token_limit: 128000

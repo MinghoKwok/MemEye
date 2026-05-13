@@ -1,0 +1,73 @@
+# MemEye Benchmark — unified requirements for all baseline methods
+# Install: conda activate memorybench && pip install -r requirements.txt
+
+# Core benchmark
+numpy
+pyyaml
+tqdm
+python-dotenv
+
+# LLM API clients
+openai>=1.0.0
+anthropic
+tiktoken
+google-genai
+litellm
+
+# Embeddings & retrieval
+sentence-transformers>=2.2.0
+torch>=2.0.0
+transformers>=4.30.0
+rank-bm25>=0.2.2
+faiss-cpu>=1.7.0
+scikit-learn
+
+# Image processing
+Pillow>=9.0.0
+scikit-image
+PyMuPDF
+
+# NLP evaluation
+nltk>=3.8.0
+rouge-score
+bert-score
+
+# Data handling
+pandas
+pydantic>=2.0.0
+pydantic-settings
+sqlalchemy
+jinja2
+json_repair
+
+# Method-specific (A-MEM, MIRIX, SimpleMem, etc.)
+pytz
+demjson3
+pathvalidate
+docstring_parser
+humps
+colorama
+httpx_sse
+rapidfuzz
+psutil
+Markdown
+openpyxl
+SpeechRecognition
+pydub
+python-multipart
+pg8000
+langchain>=0.2.0
+langchain_core
+langchain-openai
+llama_index
+pymongo
+llama-index-embeddings-google-genai
+opentelemetry-api
+opentelemetry-sdk
+fastapi>=0.100.0
+uvicorn>=0.20.0
+
+# NOT included (install manually if needed):
+# PyQt6, pyautogui — GUI, not needed for benchmark
+# ffmpeg — system package
+# pgvector — requires PostgreSQL

@@ -1,0 +1,9 @@
+backend: openai
+caption_preprocessed: true
+embedding_model: all-MiniLM-L6-v2
+llm_api_key: ''
+llm_api_key_env: GEMINI_API_KEY
+llm_model: gemini-2.5-flash-lite
+name: a_mem
+retrieve_k: 10
+temperature_c5: 0.5

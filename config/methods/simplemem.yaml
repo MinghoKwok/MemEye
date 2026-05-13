@@ -1,0 +1,25 @@
+name: simplemem
+
+# Backend / answer model: pulled from --model flag at runtime via _model_cfg.
+# Override here only if you want a different LLM than the benchmark's main model.
+llm_model: ""
+llm_api_key: ""
+llm_api_key_env: OPENAI_API_KEY
+
+# Retrieval settings (Mem-Gallery default)
+retrieve_k: 20
+
+# Embedding (matches A-MEM / other MemoryBench baselines)
+embedding_model: all-MiniLM-L6-v2
+embedding_dim: 384
+
+# Caption-only mode: assumes preprocessed image_caption fields in dataset.
+# Same convention as a_mem.yaml.
+caption_preprocessed: true
+
+# LLM generation knobs
+temperature: 0.0
+max_tokens: 1000
+
+# Skip Omni-SimpleMem's auto-research / self-evolution loop for benchmark fairness
+enable_self_evolution: false

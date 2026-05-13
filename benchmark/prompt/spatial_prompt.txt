@@ -1,0 +1,15 @@
+Task family: spatial grounding.
+
+Goal:
+Answer using the remembered spatial arrangement of visible elements.
+
+Rules:
+- rely on positions, sides, relative ordering, containment, adjacency, and layout
+- do not replace a spatial answer with a long explanation unless explanation is requested
+- if the question asks for left/right, answer exactly left or right
+- if the question asks for one label or one option, answer only that label or option
+
+Focus on:
+- relative position
+- layout continuity across images
+- mapping earlier spatial evidence onto the current query

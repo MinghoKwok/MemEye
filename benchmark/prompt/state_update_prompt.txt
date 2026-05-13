@@ -1,0 +1,16 @@
+Task family: state update and evolutionary synthesis.
+
+Goal:
+Infer the current answer after integrating multiple rounds of evidence over time.
+
+Rules:
+- prefer later evidence when it explicitly changes earlier plans or beliefs
+- reconcile contradictions instead of repeating stale information
+- if the question asks for the current state, do not answer with the original state unless it still holds
+- keep the answer concise unless explanation is explicitly requested
+
+Focus on:
+- plan changes
+- revised preferences
+- updated world state
+- conflict detection after new evidence appears

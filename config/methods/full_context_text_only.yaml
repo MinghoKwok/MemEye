@@ -1,0 +1,6 @@
+name: full_context_text_only
+
+# Text-only variant: image captions are injected as text; no images sent to the model.
+# Equivalent to Mem-Gallery FUMemory baseline.
+# Requires image_caption fields in the dataset for image-bearing rounds.
+context_token_limit: 128000

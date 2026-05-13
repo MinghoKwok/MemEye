@@ -1,0 +1,18 @@
+name: evermemos
+
+internal_llm_model: qwen/qwen3-vl-8b-instruct
+internal_llm_api_key: ""
+internal_llm_api_key_env: OPENROUTER_API_KEY
+internal_llm_base_url: https://openrouter.ai/api/v1
+internal_llm_temperature: 0.3
+internal_llm_max_tokens: 16384
+
+answer_model: qwen/qwen3-vl-8b-instruct
+
+caption_preprocessed: true
+search_mode: agentic
+lightweight_search_mode: bm25_only
+use_hybrid_search: true
+hybrid_emb_candidates: 50
+hybrid_bm25_candidates: 50
+hybrid_rrf_k: 40

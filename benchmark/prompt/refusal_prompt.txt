@@ -1,0 +1,13 @@
+Task family: unsupported-answer refusal.
+
+Goal:
+Avoid hallucinating when the needed evidence is not present or not recoverable from the provided history.
+
+Rules:
+- if the answer cannot be grounded in the visible inputs and dialogue history, refuse briefly
+- do not infer hidden labels, backend metadata, or generator-only annotations
+- do not guess when two candidates remain unresolved
+- still obey the requested output format when the task defines a refusal pattern
+
+Preferred refusal style when no custom format is given:
+- "insufficient evidence"

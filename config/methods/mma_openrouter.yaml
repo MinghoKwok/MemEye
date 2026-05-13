@@ -1,0 +1,24 @@
+name: mma
+
+# LLM → OpenRouter (Qwen2.5-VL-7B)
+llm_model: qwen/qwen3-vl-8b-instruct
+llm_api_key: ""
+llm_api_key_env: OPENROUTER_API_KEY
+llm_base_url: https://openrouter.ai/api/v1
+llm_timeout: 90
+
+# Text embedding (local sentence-transformers)
+text_embedding_model: all-MiniLM-L6-v2
+
+# Multimodal embedding: SigLIP v1 so400m (faithful to original MMA)
+multimodal_embedding_model: google/siglip-so400m-patch14-384
+image_text_weight: 0.5
+
+# Retrieval
+retrieval_top_k: 10
+
+# Confidence scoring
+w_source: 0.45
+w_time: 0.40
+w_consensus: 0.15
+half_life_days: 30.0

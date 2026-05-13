@@ -1,0 +1,15 @@
+Task family: inter-image visual pattern induction.
+
+Goal:
+Infer a shared visual pattern across multiple images and apply it to a new candidate.
+
+Rules:
+- infer the pattern from visible evidence rather than from a named category that is never given
+- compare across multiple examples before deciding
+- do not invent an external brand, concept, or rule unless it is visually supported
+- if asked to choose one option, answer only that option
+
+Focus on:
+- shared visual design language
+- recurring style cues
+- family resemblance across multiple images

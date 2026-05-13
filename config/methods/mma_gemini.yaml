@@ -1,0 +1,14 @@
+half_life_days: 30.0
+image_text_weight: 0.5
+llm_api_key: ''
+llm_api_key_env: GEMINI_API_KEY
+llm_base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+llm_model: gemini-2.5-flash-lite
+llm_timeout: 90
+multimodal_embedding_model: openai/clip-vit-base-patch32
+name: mma
+retrieval_top_k: 10
+text_embedding_model: all-MiniLM-L6-v2
+w_consensus: 0.15
+w_source: 0.45
+w_time: 0.4

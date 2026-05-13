@@ -1,0 +1,12 @@
+caption_preprocessed: false
+embedding_dim: 384
+embedding_model: all-MiniLM-L6-v2
+enable_self_evolution: false
+llm_api_key: ''
+llm_api_key_env: GEMINI_API_KEY
+llm_model: gemini-2.5-flash-lite
+max_tokens: 1000
+modality: multimodal
+name: simplemem
+retrieve_k: 20
+temperature: 0.0

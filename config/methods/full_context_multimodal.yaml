@@ -1,0 +1,6 @@
+name: full_context_multimodal
+
+# Multimodal variant: images are passed directly to the model.
+# Equivalent to Mem-Gallery MMFUMemory baseline.
+context_token_limit: 128000
+reserved_tokens: 1000

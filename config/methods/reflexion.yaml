@@ -1,0 +1,16 @@
+name: reflexion
+
+caption_preprocessed: true
+context_word_limit: 6000
+empty_memory: "No stored memory yet."
+
+# Optional override for Reflexion's own reflection LLM.
+# If left blank, the benchmark model config is reused only when provider=openai_api.
+llm_model: ""
+llm_api_key: ""
+llm_api_key_env: OPENAI_API_KEY
+llm_base_url: "https://api.openai.com/v1"
+reflection_temperature: 0.0
+
+# Optional style example for the RFMemory optimize step.
+reflection_example: ""

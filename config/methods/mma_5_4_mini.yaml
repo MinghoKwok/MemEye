@@ -1,0 +1,25 @@
+name: mma
+
+# LLM for QA answering
+llm_model: "gpt-5.4-mini"
+llm_api_key: ""
+llm_api_key_env: "OPENAI_API_KEY"
+llm_base_url: "https://api.openai.com/v1"
+llm_timeout: 90
+
+# Text embedding (reuses M2A's sentence-transformers)
+text_embedding_model: "all-MiniLM-L6-v2"
+
+# Multimodal embedding: SigLIP v1 so400m (faithful to original MMA)
+multimodal_embedding_model: "google/siglip-so400m-patch14-384"
+
+# Retrieval
+retrieval_top_k: 10
+# Blend weight: 0.0 = text-only, 1.0 = image-only, 0.5 = equal blend
+image_text_weight: 0.5
+
+# Confidence scoring weights (following MMA defaults)
+w_source: 0.45
+w_time: 0.40
+w_consensus: 0.15
+half_life_days: 30.0
