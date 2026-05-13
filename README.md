@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/LOGO_Transparent.PNG" width="200">
+  <img src="assets/LOGO_WhiteBackground.PNG" width="200">
 </p>
 
 <h1 align="center">MemEye</h1>
