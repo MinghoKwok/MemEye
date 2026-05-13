@@ -13,6 +13,10 @@ Long-term agent memory is increasingly multimodal, yet existing evaluations rare
 - **X-axis (Visual Evidence Granularity):** from scene-level (X1) to pixel-level (X4) evidence
 - **Y-axis (Memory Reasoning Depth):** from atomic retrieval (Y1) to relational association (Y2) and evolutionary synthesis (Y3)
 
+<p align="center">
+  <img src="assets/xyaxis.png" width="100%">
+</p>
+
 The benchmark includes **371 mirrored MCQ + open-ended questions** across **8 life-scenario tasks**, with annotated clue rounds and validation gates for answerability, shortcut resistance, visual necessity, and reasoning structure.
 
 ## Key Findings
@@ -26,6 +30,14 @@ The benchmark includes **371 mirrored MCQ + open-ended questions** across **8 li
 </p>
 
 MemEye exhibits stronger visual irreplaceability than prior long-term memory benchmarks — the gap between caption-only and multimodal settings is significantly larger.
+
+### Cell-Level Performance Heatmap
+
+<p align="center">
+  <img src="assets/heatmap.png" width="100%">
+</p>
+
+Representative method performance across the MemEye matrix (gpt-5.4-mini). Left: Open-ended LLM-as-a-Judge; Right: Multiple-choice EM.
 
 ## Supported Methods (13)
 
