@@ -2,8 +2,7 @@
   <img src="assets/LOGO_WhiteBackground.PNG" width="200">
 </p>
 
-<h1 align="center">MemEye</h1>
-<h3 align="center">A Visual-Centric Evaluation Framework for Multimodal Agent Memory</h3>
+<h1 align="center">MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory</h1>
 
 <p align="center">
   <a href="https://huggingface.co/datasets/MemEyeBench/MemEye"><img src="https://img.shields.io/badge/HuggingFace-Dataset-yellow" alt="Dataset"></a>
