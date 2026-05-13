@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="assets/LOGO_WhiteBackground.PNG" width="200">
-</p>
-
-<h1 align="center">MemEye</h1>
+<h1 align="center"><img src="assets/LOGO_WhiteBackground.PNG" width="36" style="vertical-align: middle;"> MemEye</h1>
 <h3 align="center">A Visual-Centric Evaluation Framework for Multimodal Agent Memory</h3>
 
 <p align="center">
