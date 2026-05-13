@@ -7,7 +7,7 @@ from pathlib import Path
 
 DEFAULT_REPO_URL = "https://huggingface.co/datasets/MemEyeBench/MemEye"
 DEFAULT_REPO_DIR = Path.home() / ".cache" / "memeye_hf" / "MemEye"
-DEFAULT_LOCAL_DATA_ROOT = Path(__file__).resolve().parent / "data"
+DEFAULT_LOCAL_DATA_ROOT = Path(__file__).resolve().parents[1] / "data"
 
 
 def run(cmd: list[str], cwd: Path | None = None) -> None:
