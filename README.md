@@ -5,7 +5,7 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
 
 <p align="center">
-  <img src="assets/teaser.png" width="100%">
+  <img src="assets/headfigure.png" width="100%">
 </p>
 
 Long-term agent memory is increasingly multimodal, yet existing evaluations rarely test whether agents preserve the visual evidence needed for later reasoning. **MemEye** is a diagnostic framework that evaluates multimodal agent memory through a two-axis taxonomy:
@@ -20,6 +20,12 @@ The benchmark includes **371 mirrored MCQ + open-ended questions** across **8 li
 - Captions remain competitive for scene/region-level evidence but leave gaps at instance/pixel-level
 - Semantic retrieval can confuse relevance with temporal authority, ranking stale evidence above valid updates
 - Native visual evidence helps high-X questions but does not by itself solve evolutionary synthesis
+
+<p align="center">
+  <img src="assets/caption_irreplaceability.png" width="90%">
+</p>
+
+MemEye exhibits stronger visual irreplaceability than prior long-term memory benchmarks — the gap between caption-only and multimodal settings is significantly larger.
 
 ## Supported Methods (13)
 
