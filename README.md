@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/LOGO_WhiteBackground.jpg" width="200">
+  <img src="assets/LOGO_WhiteBackground.png" width="200">
 </p>
 
 <h1 align="center">MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory</h1>
