@@ -242,18 +242,17 @@ python run_benchmark.py \
 
 ## Citation
 
-Coming soon.
-
-<!--
 ```bibtex
-@inproceedings{memeye2026,
-  title={MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory},
-  author={},
-  booktitle={},
-  year={2026}
+@misc{guo2026memeyevisualcentricevaluationframework,
+      title={MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory}, 
+      author={Minghao Guo and Qingyue Jiao and Zeru Shi and Yihao Quan and Boxuan Zhang and Danrui Li and Liwei Che and Wujiang Xu and Shilong Liu and Zirui Liu and Mubbasir Kapadia and Vladimir Pavlovic and Jiang Liu and Mengdi Wang and Yiyu Shi and Dimitris N. Metaxas and Ruixiang Tang},
+      year={2026},
+      eprint={2605.15128},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.15128}, 
 }
 ```
--->
 
 ## License
 
